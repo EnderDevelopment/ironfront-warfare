@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "frontierwarfare",
+  "version": "${version}",
+  "name": "Frontier Warfare",
+  "description": "Grounded firearms, field bombs, and more forceful explosions for vanilla Minecraft.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.enderdevelopment.frontierwarfare.FrontierWarfare"],
+    "client": ["com.enderdevelopment.frontierwarfare.FrontierWarfareClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

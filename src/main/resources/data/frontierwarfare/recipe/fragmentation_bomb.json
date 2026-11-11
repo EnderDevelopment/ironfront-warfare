@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "IGI", "III"],
+  "key": {
+    "I": {"item": "minecraft:iron_nugget"},
+    "G": {"item": "minecraft:gunpowder"}
+  },
+  "result": {"id": "frontierwarfare:fragmentation_bomb", "count": 1}
+}
